@@ -115,6 +115,7 @@ int main(int argc, char * argv[]){
 	const char * chr = testFile.c_str();
 	ifstream inFile(chr, ios::in);
 
+/*
 	vector<wstring> lines;
 	string buffer;
 	while(getline(inFile, buffer) ){
@@ -130,8 +131,6 @@ int main(int argc, char * argv[]){
 	string fileOutput = "segmented.txt";
 	const char * chr1 = fileOutput.c_str();
 	ofstream outFule(chr1, ios::out);
-
-/*
 	for(int i=0; i<lines.size(); i++){
 
 	}
